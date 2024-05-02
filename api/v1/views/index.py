@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-
-"""
-Createw Flask app; app_view
-"""
-
 from flask import jsonify
 from api.v1.views import app_views
 
@@ -45,4 +39,3 @@ def stats():
     resp.status_code = 200
 
     return resp
-
