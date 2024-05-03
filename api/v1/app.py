@@ -22,14 +22,14 @@ def close_db(obj):
 
 
 @app.errorhandler(404)
-def page_not_foun(error):
+def page_not_found(error):
     """ Loads a custom 404 page not found """
     return make_response(jsonify({"error": "Not found"}), 404)
 
 
 app.config['SWAGGER'] = {
     'title': 'AirBnB clone - RESTful API',
-    'description': 'This is the api that was created for the hbnb restful api project,\
+    'descrp': 'api that was created for the hbnb restful api project,\
     all the documentation will be shown below',
     'uiversion': 3}
 

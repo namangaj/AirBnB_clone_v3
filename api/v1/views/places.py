@@ -238,7 +238,7 @@ def search_places_by_id():
 #         abort(404)
 
 #     for key, val in place_json.items():
-#         if key not in ["id", "created_at", "updated_at", "user_id", "city_id"]:
+#         if key not in["id","created_at", "updated_at", "user_id","city_id"]:
 #             setattr(fetched_obj, key, val)
 
 #     fetched_obj.save()
