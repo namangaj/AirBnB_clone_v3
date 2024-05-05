@@ -156,6 +156,7 @@ No known bugs at this time.
 ## Authors
 Adam Umar Faruq
 Adeoye Ajarat Abisola
+Joshua Kipkania Namanga
 
 ## License
 Public Domain. No copy write protection. 
